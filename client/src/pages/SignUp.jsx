@@ -20,7 +20,8 @@ export default function SignUp() {
       setLoading(true);
       setErrorMessage(null);
       const res = await fetch(
-        `${import.meta.env.VITE_BACKEND_URL}/api/auth/signup`,
+        /*`${import.meta.env.VITE_BACKEND_URL}/api/auth/signup`,*/
+"https://blog-final-s1c3-98qy2whhs-ramanjaneyalu544546s-projects.vercel.app/api/signup",
         {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
