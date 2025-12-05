@@ -18,14 +18,14 @@ const app = express();
 // CORS configuration - UPDATE THESE DOMAINS WHEN YOU DEPLOY
 app.use(
   cors({
-    origin:
-      process.env.NODE_ENV === 'production'
+    origin:true,
+     /* process.env.NODE_ENV === 'production'
         ? [
             'https://blog-final-gshy-qdvwepo3l-ramanjaneyalu544546s-projects.vercel.app',
             
             /\.vercel\.app$/,
           ]
-        : ['http://localhost:5173', 'http://localhost:3000'],
+        : ['http://localhost:5173', 'http://localhost:3000'],*/
     credentials: true,
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
     allowedHeaders: ['Content-Type', 'Authorization', 'x-requested-with'],
