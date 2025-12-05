@@ -12,7 +12,7 @@ export default function CallToAction() {
           Check our 100 js projects website and start building your own projects
         </p>
         <a
-          href='https://www.100jsprojects.com/'
+          href='https://www.freshersadda.vercel.app/'
           target='_blank'
           rel='noopener noreferrer'
         >
@@ -20,7 +20,7 @@ export default function CallToAction() {
             gradientDuoTone='purpleToPink'
             className='rounded-tl-xl rounded-bl-none rounded-br-xl w-full'
           >
-            100 JS Projects Website
+            Freshers Adda
           </Button>
         </a>
       </div>
