@@ -21,8 +21,8 @@ app.use(
     origin:
       process.env.NODE_ENV === 'production'
         ? [
-            'https://blog.100jsprojects.com',
-            'https://mern-blog-client-steel.vercel.app',
+            'https://freshersadda.vercel.app',
+            
             /\.vercel\.app$/,
           ]
         : ['http://localhost:5173', 'http://localhost:3000'],
